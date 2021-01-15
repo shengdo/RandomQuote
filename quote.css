@@ -1,0 +1,27 @@
+.card{
+    display: grid;
+    grid-template-areas: "quote" "action";
+    flex-direction: row;
+    margin: 10% 20% 0 20%;
+}
+
+#quote{
+    grid-area: quote;
+}
+
+#action-link{
+    grid-area: action;
+    display: flex;
+    justify-content: space-around;
+}
+
+#new-quote{
+
+    border-radius: 5px;
+    background-color: white
+}
+
+a{
+    vertical-align: middle;
+    text-decoration: none;
+}
